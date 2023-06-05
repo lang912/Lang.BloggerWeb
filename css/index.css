@@ -1,0 +1,32 @@
+.nav {
+    background-color: #353A47;
+}
+
+.nav * {
+    display: inline-block;
+}
+
+.nav .main ul{
+    text-align: center;
+}
+
+.nav .main input {
+    background-color: #353A47;
+    border-radius: 9px;
+    border: 1px white;
+}
+
+.nav a {
+    color: azure;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.nav .right {
+    float: right;
+}
+
+.nav a:hover {
+    background-color: black;
+    color: #FF5B1E;
+}
