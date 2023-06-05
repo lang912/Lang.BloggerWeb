@@ -1,5 +1,9 @@
+/* 导航菜单开始 */
 .nav {
     background-color: #353A47;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav * {
@@ -12,7 +16,6 @@
 
 .nav .main ul {
     list-style-type: none;
-    text-align: center;
 }
 
 .nav .main input {
@@ -36,4 +39,34 @@
 .nav a:hover {
     background-color: black;
     color: #FF5B1E;
+}
+
+.dropdown {
+    position: relative;
+    top: 0;
+}
+
+/* 下拉菜单样式 */
+.dropdown-content {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+    position: absolute;
+    left:0;
+    z-index: 1;
+    min-width: 150px;
+}
+
+.dropdown-content a {
+    color: #353A47;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;    
+}
+
+/* 导航菜单到此结束 */
+
+.content {
+    height: 900px;
 }
