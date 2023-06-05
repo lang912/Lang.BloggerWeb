@@ -12,8 +12,10 @@
 
 .nav .main input {
     background-color: #353A47;
-    border-radius: 9px;
-    border: 1px white;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 30px;
+    color: azure;
 }
 
 .nav a {
