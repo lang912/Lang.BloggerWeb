@@ -1,8 +1,7 @@
 /* 导航菜单开始 */
 .nav {
     background-color: #353A47;
-    position: fixed;
-    top: 0;
+    
     width: 100%;
 }
 
@@ -68,5 +67,7 @@
 /* 导航菜单到此结束 */
 
 .content {
+    background-color:antiquewhite;
     height: 900px;
+    margin: 20px 20px;
 }
