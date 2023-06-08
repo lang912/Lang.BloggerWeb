@@ -1,37 +1,39 @@
-.filecenter {       
-    margin: 10px auto;   
+.filecenter {
+    margin: 10px auto;
+    background-color: antiquewhite;
 }
 
 .description {
     width: 45%;
     height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    text-align: center;
 }
 
 .description h1 {
+    margin: 30px;
     font-size: 60px;
-    display: block;
 }
 
 .description h4 {
     font-size: 30px;
-    display: block;
+    margin: 30px;
 }
 
-.filechoose {   
+.filechoose {
+    text-align: center;
     width: 45%;
     height: 60vh;
     background-color: #3A8CDF;
     margin: 0 auto;
     padding: 10px auto;
-     /*flex 布局*/
-     display: flex;
-     /* 垂直居中 */
-     align-items: center;
-     /* 水平居中 */
-     justify-content: center;
+    /*flex 布局*/
+    /* display: flex; */
+    display: inline-block;
+    /* 垂直居中 */
+    align-items: center;
+    /* 水平居中 */
+    justify-content: center;
 }
 
 .filecenter .filechoose input {
