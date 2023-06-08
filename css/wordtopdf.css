@@ -1,0 +1,46 @@
+.filecenter {       
+    margin: 10px auto;   
+}
+
+.description {
+    width: 45%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description h1 {
+    font-size: 60px;
+    display: block;
+}
+
+.description h4 {
+    font-size: 30px;
+    display: block;
+}
+
+.filechoose {   
+    width: 45%;
+    height: 60vh;
+    background-color: #3A8CDF;
+    margin: 0 auto;
+    padding: 10px auto;
+     /*flex 布局*/
+     display: flex;
+     /* 垂直居中 */
+     align-items: center;
+     /* 水平居中 */
+     justify-content: center;
+}
+
+.filecenter .filechoose input {
+    background: #F2F2F2;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}

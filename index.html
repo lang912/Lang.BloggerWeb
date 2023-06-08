@@ -1,50 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>博客</title>
-        <link rel="stylesheet" href="css/global.css" />
-        <link rel="stylesheet" href="css/index.css" />
-        <script src="js/common/jquery-3.7.0.min.js"></script>
-        <script src="js/index.js"></script>
-    </head>
-    <body>
-        <!--导航栏-->
-        <div class="nav">
-            <!-- 主要的导航栏 -->
-            <div class="main">
-                <ul>
-                    <li><a href="#">首页</a></li>
-                    <div class="dropdown">
-                        <li> <a href="#">工具</a> </li>
-                        <div class="dropdown-content">
-                            <a href="html/jsonvalidate.html" target="maincontent">Json格式校验</a>
-                            <a href="html/pictopdf.html" target="maincontent">图片转PDF</a>
-                            <a href="html/wordtopdf.html" target="maincontent">Word转PDF</a>
-                            <a href="html/fileCompress.html" target="maincontent">文件解压缩</a>
-                        </div>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/common/jquery-3.7.0.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <!--导航栏-->
+    <div class="nav">
+        <!-- 主要的导航栏 -->
+        <div class="main">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <div class="dropdown">
+                    <li> <a href="#">工具</a> </li>
+                    <div class="dropdown-content">
+                        <a href="html/jsonvalidate.html" target="maincontent">Json格式校验</a>
+                        <a href="html/pictopdf.html" target="maincontent">图片转PDF</a>
+                        <a href="html/wordtopdf.html" target="maincontent">Word转PDF</a>
+                        <a href="html/fileCompress.html" target="maincontent">文件解压缩</a>
                     </div>
-                    <li><a href="#">博客</a></li>
-                    <li><a href="#">联系我</a></li>
-                </ul>
+                </div>
+                <li><a href="#">博客</a></li>
+                <li><a href="#">联系我</a></li>
+            </ul>
 
-                <!-- <input type="text" id="searchbtn"> -->
-            </div>
-
-            <!-- 右边的导航栏 -->
-            <div class="right">
-                <a href="#">登录/注册</a>
-            </div>
+            <!-- <input type="text" id="searchbtn"> -->
         </div>
 
-        <!-- 中间是内容文本 -->
-        <div class="content">
-            <iframe src="html/jsonvalidate.html" name="maincontent" style="width: 100%;height: 100%;"></iframe>
+        <!-- 右边的导航栏 -->
+        <div class="right">
+            <a href="#">登录/注册</a>
         </div>
+    </div>
 
-        <!-- 底部是备案信息这些 -->
-        <div class="foot"></div>
-    </body>
+    <!-- 中间是内容文本 -->
+    <div class="content">
+        <iframe src="html/jsonvalidate.html" name="maincontent" title="1"   id="iframe"></iframe>
+    </div>
+
+    <!-- 底部是备案信息这些 -->
+    <div class="foot"></div>
+</body>
+
 </html>

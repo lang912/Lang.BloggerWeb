@@ -68,7 +68,15 @@
 /* 导航菜单到此结束 */
 
 .content {
-    background-color:antiquewhite;
-    height: 900px;
-    margin: 20px 20px;
+    background-color:antiquewhite;    
+    overflow: hidden;
+    margin: 10px 1%;
+}
+
+
+.content iframe {  
+    display: block;
+    border: none;
+    height: 80vh;/*设置高度百分比,一直调到只有一个滚动调为止*/
+    width: 100%;
 }

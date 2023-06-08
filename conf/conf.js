@@ -1,0 +1,1 @@
+const fileUploadurl = 'http://www.baodu.com'
