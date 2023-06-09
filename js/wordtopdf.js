@@ -7,7 +7,9 @@ $(document).ready(function () {
 
     // 文件选中的事件
     $("#file").change(function (e) {
-       console.log(e);
-       alert("sdasd")
+        var files = $('#file').prop('files');
+        console.log(files);
+        var data = new FormData();
+        data.append('avatar', files[0]);
     });
 });

@@ -67,8 +67,7 @@
 
 /* 导航菜单到此结束 */
 
-.content {
-    background-color:antiquewhite;    
+.content { 
     overflow: hidden;
     margin: 10px 1%;
 }

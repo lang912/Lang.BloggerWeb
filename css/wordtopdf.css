@@ -1,12 +1,9 @@
 .filecenter {
     margin: 10px auto;
-    background-color: antiquewhite;
+    margin: 0 auto;
 }
 
 .description {
-    width: 45%;
-    height: 60vh;
-    display: inline-block;
     text-align: center;
 }
 
@@ -22,22 +19,21 @@
 
 .filechoose {
     text-align: center;
-    width: 45%;
-    height: 60vh;
-    background-color: #3A8CDF;
+    width: 60%;
+    height: 250px;
     margin: 0 auto;
     padding: 10px auto;
     /*flex 布局*/
-    /* display: flex; */
-    display: inline-block;
+    display: flex;
     /* 垂直居中 */
     align-items: center;
     /* 水平居中 */
     justify-content: center;
+    border: 1px dashed #000;
 }
 
 .filecenter .filechoose input {
-    background: #F2F2F2;
+    background: #3A8CDF;
     border: none;
     width: 150px;
     height: 50px;
