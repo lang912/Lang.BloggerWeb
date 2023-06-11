@@ -48,9 +48,9 @@ $.ajaxResuqst = {
   //   }
   // );
 
-  uploadFiles: function (url, formData, successCallback, errorCallback) {
+  uploadFiles: function (url, formData, button,successCallback, errorCallback) {
     // 禁用上传按钮避免重复提交
-    var uploadButton = $('#upload-button');
+    var uploadButton = $(button);
     uploadButton.prop('disabled', true);
 
     $.ajax({

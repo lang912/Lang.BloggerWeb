@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var maxFileSize = 1024 * 1024;
+    var maxFileSize = 10 * 1024 * 1024;
     ////原生的文件选择按钮太丑了，这里放一个button覆盖他，然后在点击这个button的时候绑定文件选择框的文件
     $("#filebtn").click(function () {
         $("#file").click();
@@ -22,8 +22,9 @@ $(document).ready(function () {
         }
 
         $.ajaxResuqst.uploadFiles(
-            "http://localhost:10000/ToolAPI/PDF/WordToPdf", 
-             data,
+            "http://localhost:10000/ToolAPI/PDF/WordToPdf",
+            data,
+            "#filebtn",
             function (response) {
                 alert('上传成功，服务器返回：' + response);
             },
