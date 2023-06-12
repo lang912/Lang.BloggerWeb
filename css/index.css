@@ -76,6 +76,5 @@
 .content iframe {  
     display: block;
     border: none;
-    height: 80vh;/*设置高度百分比,一直调到只有一个滚动调为止*/
     width: 100%;
 }
