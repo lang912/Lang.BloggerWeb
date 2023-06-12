@@ -92,7 +92,9 @@ $.ajaxResuqst = {
       }, complete: function () {
         ////完成后，按钮可再次点击
         $btn.attr("disabled", false);
-        $.LoadingOverlay("hide");
+        console.log($("input[file]").val());
+        $(":file").val('');
+        $.LoadingOverlay("hide");        
       }
     });
   },
