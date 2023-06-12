@@ -8,6 +8,7 @@ $(document).ready(function () {
 
     // 文件选中的事件
     $("#file").change(function (e) {
+        
         var fileList = $(this)[0].files;
         var data = new FormData();
         var choosedSize = 0;

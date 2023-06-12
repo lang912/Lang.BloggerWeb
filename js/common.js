@@ -68,7 +68,7 @@ $.ajaxResuqst = {
 
   uploadAndDownloadFile: function (url, formData, button, fileName, errorCallback) {
     ////提交按钮禁用掉
-    debugger;
+    $.LoadingOverlay("show");
     var $btn = $(button);
     $.ajax({
       url: url,
@@ -92,6 +92,7 @@ $.ajaxResuqst = {
       }, complete: function () {
         ////完成后，按钮可再次点击
         $btn.attr("disabled", false);
+        $.LoadingOverlay("hide");
       }
     });
   },
@@ -127,7 +128,6 @@ $.ajaxResuqst = {
   },
 
   downloadFile: function (data, filename) {
-    debugger;
     // 创建链接元素，并指定下载属性和文件名
     var link = document.createElement('a');
     link.href = window.URL.createObjectURL(new Blob([data], { type: 'application/pdf' }));
