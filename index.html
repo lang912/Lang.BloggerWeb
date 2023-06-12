@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/index.css" />
     <script src="js/common/jquery-3.7.0.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="conf/conf.js"></script>
 </head>
 
 <body>
@@ -22,10 +23,14 @@
                 <div class="dropdown">
                     <li> <a href="#">工具</a> </li>
                     <div class="dropdown-content">
-                        <a href="html/jsonvalidate.html" target="maincontent">Json格式校验</a>
-                        <a href="html/pictopdf.html" target="maincontent">图片转PDF</a>
-                        <a href="html/wordtopdf.html" target="maincontent">Word转PDF</a>
-                        <a href="html/fileCompress.html" target="maincontent">文件解压缩</a>
+                        <!-- <a href="html/jsonvalidate.html" target="maincontent" id="jsonvali">Json格式校验</a> -->
+                        <!-- <a href="html/pictopdf.html" target="maincontent">图片转PDF</a> -->
+                        <!-- <a href="html/wordtopdf.html" target="maincontent">Word转PDF</a> -->
+                        <!-- <a href="html/fileCompress.html" target="maincontent">文件解压缩</a> -->
+                        <a href="#" id="jsonvalidate">Json格式校验</a>
+                        <a href="#" id="pictopdf">图片转PDF</a>
+                        <a href="#" id="wordtopdf">Word转PDF</a>
+                        <a href="#" id="fileCompress">文件解压缩</a>
                     </div>
                 </div>
                 <li><a href="#">博客</a></li>
@@ -43,7 +48,7 @@
 
     <!-- 中间是内容文本 -->
     <div class="content">
-        <iframe src="html/wordtopdf.html" name="maincontent" title="1"   id="iframe"></iframe>
+        <!-- <iframe src="html/wordtopdf.html" name="maincontent" title="1"   id="iframe"></iframe> -->
     </div>
 
     <!-- 底部是备案信息这些 -->
