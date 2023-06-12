@@ -1,1 +1,1 @@
-const fileUploadurl = 'http://www.baodu.com'
+const fileUploadurl = 'http://localhost:10000/ToolAPI/PDF/WordToPdf';

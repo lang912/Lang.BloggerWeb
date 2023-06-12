@@ -21,14 +21,14 @@ $(document).ready(function () {
             return;
         }
 
-        $.ajaxResuqst.uploadFiles(
-            "http://localhost:10000/ToolAPI/PDF/WordToPdf",
+        var currentTime = $.ajaxResuqst.getCurrentTime(1);
+        $.ajaxResuqst.uploadAndDownloadFile(
+            fileUploadurl,
             data,
             "#filebtn",
-            function (response) {
-                alert('上传成功，服务器返回：' + response);
-            },
+            currentTime+'.pdf',
             function (errorMessage) {
+                debugger;
                 alert('上传失败，错误信息：' + errorMessage);
             }
         );
