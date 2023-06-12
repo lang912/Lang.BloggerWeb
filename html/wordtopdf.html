@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word转PDF</title>
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/wordtopdf.css">
-    <script src="../js/common/jquery-3.7.0.min.js"></script>
-    <script src="../js/wordtopdf.js"></script>    
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Word转PDF</title>
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/wordtopdf.css">
+        <script src="../js/common/jquery-3.7.0.min.js"></script>     
+        <script src="../js/common.js"></script>   
+        <script src="../js/wordtopdf.js"></script>        
+    </head>
 
-<body>
-    <div class="filecenter">
-        <div class="description">
-            <h1>Word到PDF转换器</h1>
-            <h4>免费、快捷、无需注册、无需关注公众号</h4>
+    <body>
+        <div class="filecenter">
+            <div class="description">
+                <h1>Word到PDF转换器</h1>
+                <h4>免费、快捷、无需注册、无需关注公众号</h4>
+            </div>
+            <div class="filechoose">
+                <input type="button" id="filebtn" value="请选择文件">
+                <input type="file"
+                    accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                    id="file" name="file" style="display: none;" multiple="true">
+            </div>
         </div>
-        <div class="filechoose">
-            <input type="button" id="filebtn" value="请选择文件">
-            <input type="file" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" id="file" name="file" style="display: none;">
-        </div>
-    </div>    
-</body>
+    </body>
 
 </html>
